@@ -1,49 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>A
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
-    android:paddingLeft="4dp"
-    android:paddingTop="50dp">
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
 
     <ImageView
-        android:layout_width="258dp"
-        android:layout_height="243dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/hashtag_logo" />
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/hashtag_logo"
+        android:contentDescription="Hashtag logo"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="45dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="70dp"
+        android:gap="30dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circle_dark_blue"
+            android:contentDescription="Dark blue"/>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circle_purple"
+            android:contentDescription="Purple"/>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circle_cyan"
+            android:contentDescription="Cyan"/>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circle_blue"
+            android:contentDescription="Blue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="32dp">
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:gap="22dp">
 
-        <View
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="6dp"
-            android:background="@drawable/circle_dark_blue"/>
+        <Button
+            android:id="@+id/superButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_second"
+            android:backgroundTint="#2B65EC"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
 
-        <View
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="6dp"
-            android:background="@drawable/circle_purple"/>
+        <Button
+            android:id="@+id/viewButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_image"
+            android:backgroundTint="#00838F"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
 
-        <View
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="6dp"
-            android:background="@drawable/circle_cyan"/>
-
-        <View
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="6dp"
-            android:background="@drawable/circle_blue"/>
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_back"
+            android:backgroundTint="#424242"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
     </LinearLayout>
 
 </LinearLayout>

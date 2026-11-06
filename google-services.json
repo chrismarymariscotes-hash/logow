@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711747293695",
+    "project_id": "logow-19994",
+    "storage_bucket": "logow-19994.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711747293695:android:fae48141cedc87a245d7ca",
+        "android_client_info": {
+          "package_name": "com.example.logow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-_2nqyUKNPgacYBMvZRcCl24vxR4RyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
