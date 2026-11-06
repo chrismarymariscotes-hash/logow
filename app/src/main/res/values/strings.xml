@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">logow</string>
+    <string name="btn_second">Go to Second Page</string>
+    <string name="btn_image">View Image Page</string>
+    <string name="btn_back">Back / Close</string>
+    <string name="btn_go_back">Go Back</string>
+    <string name="title_second">Second Activity</string>
+    <string name="title_image">Image Page</string>
+    <string name="desc_hashtag_logo">Hashtag logo</string>
+    <string name="desc_dark_blue">Dark blue dot</string>
+    <string name="desc_purple">Purple dot</string>
+    <string name="desc_cyan">Cyan dot</string>
+    <string name="desc_blue">Blue dot</string>
 </resources>
